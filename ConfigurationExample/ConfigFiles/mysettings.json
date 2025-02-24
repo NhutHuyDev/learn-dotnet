@@ -1,0 +1,7 @@
+{
+  "JsonConfigSample": {
+    "StringConfig": "Value1",
+    "IntegerConfig": 9999,
+    "BoolConfig": true
+  }
+}

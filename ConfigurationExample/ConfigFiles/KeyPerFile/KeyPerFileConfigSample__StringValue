@@ -1,0 +1,1 @@
+﻿The KeyPerFileConfigurationProvider uses a directory's files as configuration key-value pairs. The key is the file name. The value is the file's contents. The Key-per-file configuration provider is used in Docker hosting scenarios.

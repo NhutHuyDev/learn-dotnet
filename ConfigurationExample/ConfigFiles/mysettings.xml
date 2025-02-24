@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<XmlConfigSample>
+		<StringConfig>Config from XML</StringConfig>
+		<IntegerConfig>1234</IntegerConfig>
+		<BoolConfig>true</BoolConfig>
+	</XmlConfigSample>
+</configuration>

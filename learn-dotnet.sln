@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AF6B5A65
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoExample.Tests", "AdoExample.Tests\AdoExample.Tests.csproj", "{50DD62F2-5FD7-4FF6-91D1-4E3EEC2D3F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExample", "ConfigurationExample\ConfigurationExample.csproj", "{62C9CD67-8488-4F02-BFC3-A85E49248FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{50DD62F2-5FD7-4FF6-91D1-4E3EEC2D3F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50DD62F2-5FD7-4FF6-91D1-4E3EEC2D3F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50DD62F2-5FD7-4FF6-91D1-4E3EEC2D3F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C9CD67-8488-4F02-BFC3-A85E49248FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C9CD67-8488-4F02-BFC3-A85E49248FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C9CD67-8488-4F02-BFC3-A85E49248FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C9CD67-8488-4F02-BFC3-A85E49248FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
