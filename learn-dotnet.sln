@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoExample.Tests", "AdoExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExample", "ConfigurationExample\ConfigurationExample.csproj", "{62C9CD67-8488-4F02-BFC3-A85E49248FAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionExample", "DependencyInjectionExample\DependencyInjectionExample\DependencyInjectionExample.csproj", "{1136C8CC-BECD-44BE-8F63-43D0CF11A274}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{62C9CD67-8488-4F02-BFC3-A85E49248FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C9CD67-8488-4F02-BFC3-A85E49248FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C9CD67-8488-4F02-BFC3-A85E49248FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1136C8CC-BECD-44BE-8F63-43D0CF11A274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1136C8CC-BECD-44BE-8F63-43D0CF11A274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1136C8CC-BECD-44BE-8F63-43D0CF11A274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1136C8CC-BECD-44BE-8F63-43D0CF11A274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
