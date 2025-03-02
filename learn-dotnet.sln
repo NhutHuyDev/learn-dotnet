@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExample", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionExample", "DependencyInjectionExample\DependencyInjectionExample\DependencyInjectionExample.csproj", "{1136C8CC-BECD-44BE-8F63-43D0CF11A274}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventWaitHandleExample", "EventWaitHandleExample\EventWaitHandleExample.csproj", "{5A3E30F5-D354-4D18-83AF-D69D2E29CD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreExample", "SemaphoreExample\SemaphoreExample.csproj", "{7E48F0F0-59D3-47E8-8D81-188658531EAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{1136C8CC-BECD-44BE-8F63-43D0CF11A274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1136C8CC-BECD-44BE-8F63-43D0CF11A274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1136C8CC-BECD-44BE-8F63-43D0CF11A274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3E30F5-D354-4D18-83AF-D69D2E29CD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3E30F5-D354-4D18-83AF-D69D2E29CD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3E30F5-D354-4D18-83AF-D69D2E29CD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3E30F5-D354-4D18-83AF-D69D2E29CD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E48F0F0-59D3-47E8-8D81-188658531EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E48F0F0-59D3-47E8-8D81-188658531EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E48F0F0-59D3-47E8-8D81-188658531EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E48F0F0-59D3-47E8-8D81-188658531EAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
