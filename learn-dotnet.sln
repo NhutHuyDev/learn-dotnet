@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreExample", "Semapho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalSectionExample", "CriticalSectionExample\CriticalSectionExample.csproj", "{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitExample", "AsyncAwaitExample\AsyncAwaitExample.csproj", "{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
