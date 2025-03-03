@@ -17,9 +17,9 @@
             var t = new Thread(new ThreadStart(P)) { IsBackground = true };
             t.Start();
 
-            PrintXY();
-            Swap();
-            PrintXY();
+            PrintXY(Options.WithMonitor);
+            Swap(Options.WithMonitor);
+            PrintXY(Options.WithMonitor);
 
             Console.ReadLine();
         }
@@ -29,6 +29,7 @@
             switch (option)
             {
                 case Options.WithLock:
+                    
                     lock (lockObject)
                     {
                         // Critical Section 
@@ -39,9 +40,31 @@
                         y = t;
                         // Critical Section 
                     }
+
                     return;
 
                 case Options.WithMonitor:
+
+                    bool lockTaken = false;
+                    try
+                    {
+                        Monitor.Enter(lockObject, ref lockTaken);
+                        // Critical Section
+                        int t = x;
+                        Thread.Sleep(1000);
+                        x = y;
+                        Thread.Sleep(2000);
+                        y = t;
+                        // Critical Section
+                    }
+                    finally
+                    {
+                        if (lockTaken)
+                        {
+                            Monitor.Exit(lockObject);
+                        }
+                    }
+
                     return;
             }
         }
@@ -60,6 +83,23 @@
                     return;
 
                 case Options.WithMonitor:
+
+                    bool lockTaken = false;
+                    try
+                    {
+                        Monitor.Enter(lockObject, ref lockTaken);
+                        // Critical Section
+                        Console.WriteLine($"x = {x}, y = {y}");
+                        // Critical Section
+                    }
+                    finally
+                    {
+                        if (lockTaken)
+                        {
+                            Monitor.Exit(lockObject);
+                        }
+                    }
+
                     return;
             }
         }
@@ -68,7 +108,7 @@
         {
             while (true)
             { 
-                PrintXY();  
+                PrintXY(Options.WithMonitor);  
                 Thread.Sleep(100);  
             }
         }
