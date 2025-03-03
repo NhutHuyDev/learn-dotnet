@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventWaitHandleExample", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreExample", "SemaphoreExample\SemaphoreExample.csproj", "{7E48F0F0-59D3-47E8-8D81-188658531EAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalSectionExample", "CriticalSectionExample\CriticalSectionExample.csproj", "{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{7E48F0F0-59D3-47E8-8D81-188658531EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E48F0F0-59D3-47E8-8D81-188658531EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E48F0F0-59D3-47E8-8D81-188658531EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4E637A-3CFF-4454-ADC4-BBA56CFAB39F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
