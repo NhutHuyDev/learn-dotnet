@@ -23,6 +23,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalSectionExample", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitExample", "AsyncAwaitExample\AsyncAwaitExample.csproj", "{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChatConsole", "ChatConsole", "{38ADF983-A6CC-4F46-86B5-063A0EABA855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatProtocol", "ChatProtocol\ChatProtocol.csproj", "{EBF5F58E-7BE1-4063-A40C-1821BA8D74BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer\ChatServer.csproj", "{13FF8B9B-92C5-486E-9E45-5A65C017514E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{925E0A16-23D0-4270-8F64-84322EEDC634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,11 +73,26 @@ Global
 		{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{864BE1B0-CF79-4EC2-A1E8-96FF7F378097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF5F58E-7BE1-4063-A40C-1821BA8D74BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF5F58E-7BE1-4063-A40C-1821BA8D74BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF5F58E-7BE1-4063-A40C-1821BA8D74BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF5F58E-7BE1-4063-A40C-1821BA8D74BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FF8B9B-92C5-486E-9E45-5A65C017514E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FF8B9B-92C5-486E-9E45-5A65C017514E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FF8B9B-92C5-486E-9E45-5A65C017514E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FF8B9B-92C5-486E-9E45-5A65C017514E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925E0A16-23D0-4270-8F64-84322EEDC634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925E0A16-23D0-4270-8F64-84322EEDC634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925E0A16-23D0-4270-8F64-84322EEDC634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925E0A16-23D0-4270-8F64-84322EEDC634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{50DD62F2-5FD7-4FF6-91D1-4E3EEC2D3F83} = {AF6B5A65-9EA1-4608-8D41-E3559AA2ABBD}
+		{EBF5F58E-7BE1-4063-A40C-1821BA8D74BB} = {38ADF983-A6CC-4F46-86B5-063A0EABA855}
+		{13FF8B9B-92C5-486E-9E45-5A65C017514E} = {38ADF983-A6CC-4F46-86B5-063A0EABA855}
+		{925E0A16-23D0-4270-8F64-84322EEDC634} = {38ADF983-A6CC-4F46-86B5-063A0EABA855}
 	EndGlobalSection
 EndGlobal
